@@ -1,4 +1,5 @@
 const express = require('express');
+const cors = require('cors');
 const port = 3000;
 const sqlite3 = require('sqlite3').verbose();
 const breeds_model = require('./models/breeds_schema');
@@ -6,7 +7,9 @@ const advice_model = require('./models/advice_schema');
 const breeds_route = require('./routes/breeds_route');
 const advice_route = require('./routes/advice_route');
 
+
 const app = express();
+app.use(cors());
 
 const db = new sqlite3.Database('database.db', (err) => {
   if (err) {

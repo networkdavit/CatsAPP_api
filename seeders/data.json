@@ -1,0 +1,185 @@
+{
+    "breeds": [
+      {
+        "id": 1,
+        "title": "Persian",
+        "description": "The Persian cat is a long-haired breed of cat characterized by its round face and short muzzle. It is also known as the 'Persian Longhair' in the English-speaking countries.",
+        "age": "Traced back to 1600s",
+        "origin": "Iran",
+        "isFavorite": 0,
+        "pros": "Affectionate, calm, good with children",
+        "cons": "Requires grooming",
+        "imageURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmdQ_x0sQd240X2YwTQRmqWyfMVQtLV9wBYA&usqp=CAU"
+      },
+      {
+        "id": 2,
+        "title": "Siamese",
+        "description": "The Siamese cat is a breed of domestic cat that originated in Thailand. It is characterized by its blue eyes and distinctive color-point coat.",
+        "age": "Traced back to 14th century",
+        "origin": "Thailand",
+        "isFavorite": 0,
+        "pros": "Intelligent, vocal, affectionate",
+        "cons": "Can be demanding",
+        "imageURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMgvZzRnuUrKRdtO55Ry-JnSFXx_6olOXV1A&usqp=CAU"
+      },
+      {
+        "id": 3,
+        "title": "Bengal",
+        "description": "The Bengal cat is a breed of domestic cat with distinctive markings and a playful, energetic personality. It was developed by breeding an Asian leopard cat with a domestic cat.",
+        "age": "Developed in the 1960s",
+        "origin": "United States",
+        "isFavorite": 0,
+        "pros": "Intelligent, active, affectionate",
+        "cons": "Requires lots of attention",
+        "imageURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9Ncc_0IdQi7C5a9QuUXDm0fmpGyxX8xzyfg&usqp=CAU"
+      },
+      {
+        "id": 4,
+        "title": "Sphynx",
+        "description": "The Sphynx cat is a breed of cat known for its lack of fur and wrinkled skin. It is an affectionate and energetic breed that loves to cuddle.",
+        "age": "Developed in the 1960s",
+        "origin": "Canada",
+        "isFavorite": 0,
+        "pros": "Friendly, active, loyal",
+        "cons": "Requires frequent bathing",
+        "imageURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIFUrUETDg25kdSPjObHq-FnW7WqaJA1yHCA&usqp=CAU"
+      },
+      {
+        "id": 5,
+        "title": "Maine Coon",
+        "description": "The Maine Coon cat is a large, long-haired breed of cat known for its friendly and gentle personality. It is one of the oldest natural breeds in North America.",
+        "age": "Traced back to early 19th century",
+        "origin": "United States",
+        "isFavorite": 0,
+        "pros": "Gentle, friendly, good with children",
+        "cons": "Requires grooming",
+        "imageURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqI_3P2z2yomAoZ3UCLBKMal9lAfkoO7kOrg&usqp=CAU"
+      },
+      {
+        "id": 6,
+        "title": "Scottish Fold",
+        "description": "The Scottish Fold cat is a breed of cat known for its distinctive ears that fold forward and down. It is a calm and friendly breed that loves attention.",
+        "age": "Discovered in the 1960s",
+        "origin": "Scotland",
+        "isFavorite": 0,
+        "pros": "Friendly, calm, good with other pets",
+        "cons": "Can have health problems related to ear shape",
+        "imageURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYRJ2I-Ez_zi4JLyQVkyDWKsan_YwRe_11cA&usqp=CAU"
+      },
+      {
+        "id": 7,
+        "title": "Russian Blue",
+        "description": "The Russian Blue cat is a breed of cat known for its silvery-blue coat and bright green eyes. It is a quiet and intelligent breed that is loyal to its owners.",
+        "age": "Traced back to 19th century",
+        "origin": "Russia",
+        "isFavorite": 0,
+        "pros": "Intelligent, loyal, quiet",
+        "cons": "Can be shy",
+        "imageURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVUN2t5A5GN_2zaE6m7D8aPTDN2lX9SvZUAg&usqp=CAU"
+      },
+      {
+        "id": 8,
+        "title": "Ragdoll",
+        "description": "The Ragdoll cat is a large, long-haired breed of cat known for its docile and affectionate personality. It is a popular breed for families with children.",
+        "age": "Developed in the 1960s",
+        "origin": "United States",
+        "isFavorite": 0,
+        "pros": "Affectionate, gentle, good with children",
+        "cons": "Requires grooming",
+        "imageURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_YEVLhnzCZSgWA6vgNm_dnqllWjW3baFuFA&usqp=CAU"
+      },
+      {
+        "id": 9,
+        "title": "Birman",
+        "description": "The Birman is a long-haired breed of domestic cat known for its striking blue eyes and white paws. It is a gentle and affectionate breed that enjoys human companionship.",
+        "age": "Traced back to 16th century",
+        "origin": "Burma",
+        "isFavorite": 0,
+        "pros": "Affectionate, calm, good with children and other pets",
+        "cons": "Requires grooming",
+        "imageURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGyupeQRMRnsJntkdQT-O_DouVvKaesVZGmA&usqp=CAU"
+      },
+      {
+        "id": 10,
+        "title": "British Shorthair",
+        "description": "The British Shorthair is a breed of domestic cat with a muscular build and short, plush coat. It is a calm and affectionate breed that enjoys lounging around the house.",
+        "age": "Traced back to 19th century",
+        "origin": "United Kingdom",
+        "isFavorite": 0,
+        "pros": "Affectionate, calm, good with children",
+        "cons": "May be prone to obesity",
+        "imageURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgFaDpoPFwfNI4gkWzmUNlBBXpCoz6YXcaOg&usqp=CAU"
+      },
+      {
+        "id": 11,
+        "title": "Devon Rex",
+        "description": "The Devon Rex is a breed of cat known for its curly coat and large ears. It is an active and playful breed that loves to climb and explore.",
+        "age": "Developed in the 1960s",
+        "origin": "United Kingdom",
+        "isFavorite": 0,
+        "pros": "Playful, affectionate, good with other pets",
+        "cons": "May be prone to health problems",
+        "imageURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSR8CBclntwsfyNGpZ03FLm6NF7PuRubYoQYw&usqp=CAU"
+      }
+    ],
+
+    "pieces_of_advice": [
+      {
+        "id": 1,
+        "title": "Persian",
+        "description": "The Persian cat is a long-haired breed of cat characterized by its round face and short muzzle. It is also known as the 'Persian Longhair' in the English-speaking countries."
+      },
+      {
+        "id": 2,
+        "title": "Siamese",
+        "description": "The Siamese cat is a breed of domestic cat that originated in Thailand. It is characterized by its blue eyes and distinctive color-point coat."
+      },
+      {
+        "id": 3,
+        "title": "Bengal",
+        "description": "The Bengal cat is a breed of domestic cat with distinctive markings and a playful, energetic personality. It was developed by breeding an Asian leopard cat with a domestic cat."
+      },
+      {
+        "id": 4,
+        "title": "Sphynx",
+        "description": "The Sphynx cat is a breed of cat known for its lack of fur and wrinkled skin. It is an affectionate and energetic breed that loves to cuddle.",
+        "age": "Developed in the 1960s"
+      },
+      {
+        "id": 5,
+        "title": "Maine Coon",
+        "description": "The Maine Coon cat is a large, long-haired breed of cat known for its friendly and gentle personality. It is one of the oldest natural breeds in North America."
+      },
+      {
+        "id": 6,
+        "title": "Scottish Fold",
+        "description": "The Scottish Fold cat is a breed of cat known for its distinctive ears that fold forward and down. It is a calm and friendly breed that loves attention."
+      },
+      {
+        "id": 7,
+        "title": "Russian Blue",
+        "description": "The Russian Blue cat is a breed of cat known for its silvery-blue coat and bright green eyes. It is a quiet and intelligent breed that is loyal to its owners."
+      },
+      {
+        "id": 8,
+        "title": "Ragdoll",
+        "description": "The Ragdoll cat is a large, long-haired breed of cat known for its docile and affectionate personality. It is a popular breed for families with children."
+      },
+      {
+        "id": 9,
+        "title": "Birman",
+        "description": "The Birman is a long-haired breed of domestic cat known for its striking blue eyes and white paws. It is a gentle and affectionate breed that enjoys human companionship."
+      },
+      {
+        "id": 10,
+        "title": "British Shorthair",
+        "description": "The British Shorthair is a breed of domestic cat with a muscular build and short, plush coat. It is a calm and affectionate breed that enjoys lounging around the house."
+      },
+      {
+        "id": 11,
+        "title": "Devon Rex",
+        "description": "The Devon Rex is a breed of cat known for its curly coat and large ears. It is an active and playful breed that loves to climb and explore."
+      }
+    ]
+  }
+  

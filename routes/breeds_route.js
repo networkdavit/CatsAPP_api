@@ -1,8 +1,7 @@
 const express = require('express');
 const router = express.Router();
+const breeds_controller = require('../controllers/breeds_controller');
 
-router.get("/breeds", (req,res)=>{
-  res.send("Get all breeds")
-});
+router.get("/breeds", breeds_controller.get_all_breeds);
 
 module.exports = router;

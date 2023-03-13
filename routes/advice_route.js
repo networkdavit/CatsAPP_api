@@ -1,8 +1,7 @@
 const express = require('express');
 const router = express.Router();
+const advice_controller = require('../controllers/advice_controller');
 
-router.get("/advice", (req,res)=>{
-  res.send("Get all advice")
-});
+router.get("/advice", advice_controller.get_all_advice);
 
 module.exports = router;
