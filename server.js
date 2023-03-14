@@ -6,7 +6,7 @@ const breeds_model = require('./models/breeds_schema');
 const advice_model = require('./models/advice_schema');
 const breeds_route = require('./routes/breeds_route');
 const advice_route = require('./routes/advice_route');
-
+const seed = require('./seeders/seed')
 
 const app = express();
 app.use(cors());
