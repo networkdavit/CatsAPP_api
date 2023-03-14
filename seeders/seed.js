@@ -8,7 +8,7 @@ const jsonData = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
 const breeds = jsonData.breeds;
 const pieces_of_advice = jsonData.pieces_of_advice;
 async function seedBreeds() {
-    const db = new sqlite3.Database('database.db');
+    const db = new sqlite3.Database('../database.db');
     db.run("DELETE FROM breeds")
     for (const breed of breeds) {
         await new Promise((resolve, reject) => {
@@ -26,7 +26,7 @@ async function seedBreeds() {
 }
 
 async function seedAdvice() {
-    const db = new sqlite3.Database('database.db');
+    const db = new sqlite3.Database('../database.db');
     db.run("DELETE FROM advice")
     for (const advice of pieces_of_advice) {
         await new Promise((resolve, reject) => {
