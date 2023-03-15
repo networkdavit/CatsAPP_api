@@ -1,4 +1,4 @@
-const sql = "CREATE TABLE IF NOT EXISTS breeds (id INTEGER PRIMARY KEY AUTOINCREMENT, title TEXT, description TEXT, age INTEGER, origin TEXT, isFavorite INTEGER, pros TEXT, cons TEXT, imageURL TEXT)";
+const sql = "CREATE TABLE IF NOT EXISTS breeds (id INTEGER PRIMARY KEY AUTOINCREMENT, title TEXT, description TEXT, age INTEGER, origin TEXT, isFavorite INTEGER, pros TEXT, cons TEXT, imageURL TEXT, advice TEXT)";
 
 function create_breeds(db) {
     db.run(sql, (err) => {
