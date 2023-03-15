@@ -12,3 +12,8 @@ function create_quiz_answers(db) {
 
 module.exports = {create_quiz_answers};
 
+//SELECT quiz_answers.answer 
+// FROM quiz_answers 
+// JOIN quiz_questions 
+// ON quiz_answers.question_id = quiz_questions.id 
+// WHERE quiz_questions.id = 1;
