@@ -6,8 +6,9 @@ const filePath = path.join(__dirname, 'data.json');
 const jsonData = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
 
 const breeds = jsonData.breeds;
-const pieces_of_advice = jsonData.pieces_of_advice;
 const food = jsonData.food;
+const interactive_games = jsonData.interactive_games;
+
 async function seedBreeds() {
     const db = new sqlite3.Database('../database.db');
     db.run("DELETE FROM breeds")
@@ -26,12 +27,12 @@ async function seedBreeds() {
       db.close();
 }
 
-async function seedAdvice() {
+async function seedGames() {
     const db = new sqlite3.Database('../database.db');
-    db.run("DELETE FROM advice")
-    for (const advice of pieces_of_advice) {
+    db.run("DELETE FROM games")
+    for (const game of interactive_games) {
         await new Promise((resolve, reject) => {
-          db.run('INSERT INTO advice (id, title, description) VALUES (?, ?, ?)', [advice.id, advice.title, advice.description], (error) => {
+          db.run('INSERT INTO games (id, title,video_id, description) VALUES (?, ?, ?, ?)', [game.id, game.title,game.video_id, game.description], (error) => {
             if (error) {
               reject(error);
             } else {
@@ -63,5 +64,5 @@ async function seedFood() {
 }
 
 seedBreeds();
-seedAdvice();
+seedGames();
 seedFood();

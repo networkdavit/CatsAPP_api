@@ -270,5 +270,25 @@
             "reason": "reason placeholder",
             "imageURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRp_SUWSwmuYNXqMRvJNo_xC-TtTUFgb1yUQ&usqp=CAU"
         }
+    ],
+    "interactive_games": [
+        {
+            "id": 1,
+            "title": "Game 1",
+            "video_id": "37cjLl07t5w",
+            "description": "Game description"
+        },
+        {
+            "id": 2,
+            "title": "Game 2",
+            "video_id": "37cjLl07t5w",
+            "description": "Game description"
+        },
+        {
+            "id": 3,
+            "title": "Game 3",
+            "video_id": "37cjLl07t5w",
+            "description": "Game description"
+        }
     ]
 }
