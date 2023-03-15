@@ -290,5 +290,96 @@
             "video_id": "37cjLl07t5w",
             "description": "Game description"
         }
+    ],
+    "quiz_questions": [
+        {
+            "id": 1,
+            "question": "Are you a lone wolf or do you enjoy company?",
+            "imageURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYCaVy7yx_XIRj3BtsHPaSlWcEccYx8-mgEw"
+        },
+        {
+            "id": 2,
+            "question": "Do you like going outside or are you a home person?",
+            "imageURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYCaVy7yx_XIRj3BtsHPaSlWcEccYx8-mgEw"
+        },
+        {
+            "id": 3,
+            "question": "How do you feel about cat fluff all over your clothes?",
+            "imageURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYCaVy7yx_XIRj3BtsHPaSlWcEccYx8-mgEw"
+        }
+    ],
+    "quiz_answers":[
+        {
+            "id": 1,
+            "answer": "I am definitely a lone wolf",
+            "question_id": 1
+        },
+        {
+            "id": 2,
+            "answer": "I am the hear and soul of a company",
+            "question_id": 1
+        },
+        {
+            "id": 3,
+            "answer": "Why not both",
+            "question_id": 1
+        },
+        {
+            "id": 4,
+            "answer": "Let me be home 24/7",
+            "question_id": 2
+        },
+        {
+            "id": 5,
+            "answer": "I love going outside every day",
+            "question_id": 2
+        },
+        {
+            "id": 6,
+            "answer": "I am neutral",
+            "question_id": 2
+        },
+        {
+            "id": 7,
+            "answer": "I absolutely dispise it",
+            "question_id": 3
+        },
+        {
+            "id": 8,
+            "answer": "I don't mind it",
+            "question_id": 3
+        },
+        {
+            "id": 9,
+            "answer": "Actually, I am totally OK with that",
+            "question_id": 3
+        }
+    ],
+    "quiz_results":[
+        {
+            "id":1,
+            "answer_pattern": 1,
+            "result": "Russian Blue",
+            "imageURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRp_SUWSwmuYNXqMRvJNo_xC-TtTUFgb1yUQ&usqp=CAU"
+
+        },
+        {
+            "id":2,
+            "answer_pattern": 2,
+            "result": "Scottish Fold",
+            "imageURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRp_SUWSwmuYNXqMRvJNo_xC-TtTUFgb1yUQ&usqp=CAU"
+        },
+        {
+            "id":3,
+            "answer_pattern": 3,
+            "result": "Persian",
+            "imageURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRp_SUWSwmuYNXqMRvJNo_xC-TtTUFgb1yUQ&usqp=CAU"
+        },
+        {
+            "id":4,
+            "answer_pattern": 0,
+            "result": "British Shorthair",
+            "imageURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRp_SUWSwmuYNXqMRvJNo_xC-TtTUFgb1yUQ&usqp=CAU"
+        }
     ]
 }
