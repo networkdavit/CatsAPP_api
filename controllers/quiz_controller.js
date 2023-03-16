@@ -16,6 +16,7 @@ function get_quiz_data(req, res) {
         }
 
         const questions = rows.map(row => ({
+            id: row.id,
             text: row.question,
             imageURL: row.imageURL,
             answers: row.answers.split(',')

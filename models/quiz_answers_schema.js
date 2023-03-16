@@ -1,4 +1,6 @@
-const sql = "CREATE TABLE IF NOT EXISTS quiz_answers (id INTEGER PRIMARY KEY AUTOINCREMENT,answer TEXT, question_id INTEGER, FOREIGN KEY(question_id) REFERENCES quiz_questions(id))";
+const sql = `CREATE TABLE IF NOT EXISTS quiz_answers 
+            (id INTEGER PRIMARY KEY AUTOINCREMENT,answer TEXT, 
+            question_id INTEGER, FOREIGN KEY(question_id) REFERENCES quiz_questions(id))`;
 
 function create_quiz_answers(db) {
     db.run(sql, (err) => {

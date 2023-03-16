@@ -1,4 +1,6 @@
-const sql = "CREATE TABLE IF NOT EXISTS advice (id INTEGER PRIMARY KEY AUTOINCREMENT, title TEXT, description TEXT)";
+const sql = `CREATE TABLE IF NOT EXISTS advice 
+            (id INTEGER PRIMARY KEY AUTOINCREMENT, 
+            title TEXT, description TEXT)`;
 
 function create_advice(db) {
     db.run(sql, (err) => {

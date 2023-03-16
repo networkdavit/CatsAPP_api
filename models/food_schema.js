@@ -1,4 +1,6 @@
-const sql = "CREATE TABLE IF NOT EXISTS food (id INTEGER PRIMARY KEY AUTOINCREMENT, brand TEXT, cat_type TEXT, reason TEXT, imageURL TEXT)";
+const sql = `CREATE TABLE IF NOT EXISTS food 
+            (id INTEGER PRIMARY KEY AUTOINCREMENT, brand TEXT, 
+            cat_type TEXT, reason TEXT, imageURL TEXT)`;
 
 function create_food(db) {
     db.run(sql, (err) => {
