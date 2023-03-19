@@ -35,7 +35,7 @@ async function seedGames() {
     db.run("DELETE FROM games")
     for (const game of interactive_games) {
         await new Promise((resolve, reject) => {
-          db.run('INSERT INTO games (id, title,video_id, description) VALUES (?, ?, ?, ?)', [game.id, game.title,game.video_id, game.description], (error) => {
+          db.run('INSERT INTO games (id, title, description, difficulty, age_range) VALUES (?, ?, ?, ?, ?)', [game.id, game.title, game.description, game.difficulty, game.age_range], (error) => {
             if (error) {
               reject(error);
             } else {
@@ -53,7 +53,7 @@ async function seedFood() {
     db.run("DELETE FROM food")
     for (const cat_food of food) {
         await new Promise((resolve, reject) => {
-          db.run('INSERT INTO food (id, brand, cat_type, reason, imageURL) VALUES (?, ?, ?,?,?)', [cat_food.id, cat_food.brand, cat_food.cat_type, cat_food.reason, cat_food.imageURL], (error) => {
+          db.run('INSERT INTO food (id, brand, cat_type, imageURL, website) VALUES (?, ?, ?,?,?)', [cat_food.id, cat_food.brand, cat_food.cat_type, cat_food.imageURL, cat_food.website], (error) => {
             if (error) {
               reject(error);
             } else {
@@ -107,7 +107,7 @@ async function seedQuizResults() {
   db.run("DELETE FROM quiz_results")
   for (const result of quiz_results) {
       await new Promise((resolve, reject) => {
-        db.run('INSERT INTO quiz_results (id, answer_pattern, imageURL) VALUES (?, ?, ?)', [result.id, result.answer_pattern, result.imageURL], (error) => {
+        db.run('INSERT INTO quiz_results (id, answer_pattern,result, imageURL) VALUES (?, ?, ?, ?)', [result.id, result.answer_pattern,result.result, result.imageURL], (error) => {
           if (error) {
             reject(error);
           } else {

@@ -193,104 +193,149 @@
     ],
     "food": [
         {
-            "id": 1,
-            "brand": "Persian",
-            "cat_type": "The Persian cat is a long-haired breed of cat characterized by its round face and short muzzle. It is also known as the 'Persian Longhair' in the English-speaking countries.",
-            "reason": "reason placeholder",
-            "imageURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRp_SUWSwmuYNXqMRvJNo_xC-TtTUFgb1yUQ&usqp=CAU"
-        },
-        {
-            "id": 2,
-            "brand": "Siamese",
-            "cat_type": "The Siamese cat is a breed of domestic cat that originated in Thailand. It is characterized by its blue eyes and distinctive color-point coat.",
-            "reason": "reason placeholder",
-            "imageURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRp_SUWSwmuYNXqMRvJNo_xC-TtTUFgb1yUQ&usqp=CAU"
-        },
-        {
-            "id": 3,
-            "brand": "Bengal",
-            "cat_type": "The Bengal cat is a breed of domestic cat with distinctive markings and a playful, energetic personality. It was developed by breeding an Asian leopard cat with a domestic cat.",
-            "reason": "reason placeholder",
-            "imageURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRp_SUWSwmuYNXqMRvJNo_xC-TtTUFgb1yUQ&usqp=CAU"
-        },
-        {
-            "id": 4,
-            "brand": "Sphynx",
-            "cat_type": "The Sphynx cat is a breed of cat known for its lack of fur and wrinkled skin. It is an affectionate and energetic breed that loves to cuddle.",
-            "reason": "reason placeholder",
-            "imageURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRp_SUWSwmuYNXqMRvJNo_xC-TtTUFgb1yUQ&usqp=CAU",
-            "age": "Developed in the 1960s"
-        },
-        {
-            "id": 5,
-            "brand": "Maine Coon",
-            "cat_type": "The Maine Coon cat is a large, long-haired breed of cat known for its friendly and gentle personality. It is one of the oldest natural breeds in North America.",
-            "reason": "reason placeholder",
-            "imageURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRp_SUWSwmuYNXqMRvJNo_xC-TtTUFgb1yUQ&usqp=CAU"
-        },
-        {
-            "id": 6,
-            "brand": "Scottish Fold",
-            "cat_type": "The Scottish Fold cat is a breed of cat known for its distinctive ears that fold forward and down. It is a calm and friendly breed that loves attention.",
-            "reason": "reason placeholder",
-            "imageURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRp_SUWSwmuYNXqMRvJNo_xC-TtTUFgb1yUQ&usqp=CAU"
-        },
-        {
-            "id": 7,
-            "brand": "Russian Blue",
-            "cat_type": "The Russian Blue cat is a breed of cat known for its silvery-blue coat and bright green eyes. It is a quiet and intelligent breed that is loyal to its owners.",
-            "reason": "reason placeholder",
-            "imageURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRp_SUWSwmuYNXqMRvJNo_xC-TtTUFgb1yUQ&usqp=CAU"
-        },
-        {
-            "id": 8,
-            "brand": "Ragdoll",
-            "cat_type": "The Ragdoll cat is a large, long-haired breed of cat known for its docile and affectionate personality. It is a popular breed for families with children.",
-            "reason": "reason placeholder",
-            "imageURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRp_SUWSwmuYNXqMRvJNo_xC-TtTUFgb1yUQ&usqp=CAU"
-        },
-        {
-            "id": 9,
-            "brand": "Birman",
-            "cat_type": "The Birman is a long-haired breed of domestic cat known for its striking blue eyes and white paws. It is a gentle and affectionate breed that enjoys human companionship.",
-            "reason": "reason placeholder",
-            "imageURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRp_SUWSwmuYNXqMRvJNo_xC-TtTUFgb1yUQ&usqp=CAU"
-        },
-        {
-            "id": 10,
-            "brand": "British Shorthair",
-            "cat_type": "The British Shorthair is a breed of domestic cat with a muscular build and short, plush coat. It is a calm and affectionate breed that enjoys lounging around the house.",
-            "reason": "reason placeholder",
-            "imageURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRp_SUWSwmuYNXqMRvJNo_xC-TtTUFgb1yUQ&usqp=CAU"
-        },
-        {
-            "id": 11,
-            "brand": "Devon Rex",
-            "cat_type": "The Devon Rex is a breed of cat known for its curly coat and large ears. It is an active and playful breed that loves to climb and explore.",
-            "reason": "reason placeholder",
-            "imageURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRp_SUWSwmuYNXqMRvJNo_xC-TtTUFgb1yUQ&usqp=CAU"
-        }
+        "id": 1,
+        "brand": "Royal Canin",
+        "cat_type": "Shorthair",
+        "imageURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_YEVLhnzCZSgWA6vgNm_dnqllWjW3baFuFA&usqp=CAU",
+        "website": "https://www.royalcanin.com/"
+    },
+    {
+        "id": 2,
+        "brand": "Monge",
+        "cat_type": "Longhair",
+        "imageURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_YEVLhnzCZSgWA6vgNm_dnqllWjW3baFuFA&usqp=CAU",
+        "website": "https://www.monge.it/"
+    },
+    {
+        "id": 3,
+        "brand": "Hill's Science Diet",
+        "cat_type": "No hair",
+        "imageURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_YEVLhnzCZSgWA6vgNm_dnqllWjW3baFuFA&usqp=CAU",
+        "website": "https://www.hillspet.com/"
+    },
+    {
+        "id": 4,
+        "brand": "Purina Pro Plan",
+        "cat_type": "Shorthair",
+        "imageURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_YEVLhnzCZSgWA6vgNm_dnqllWjW3baFuFA&usqp=CAU",
+        "website": "https://www.purina.com/pro-plan"
+    },
+    {
+        "id": 5,
+        "brand": "Blue Buffalo",
+        "cat_type": "Longhair",
+        "imageURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_YEVLhnzCZSgWA6vgNm_dnqllWjW3baFuFA&usqp=CAU",
+        "website": "https://bluebuffalo.com/"
+    },
+    {
+        "id": 6,
+        "brand": "Iams",
+        "cat_type": "No hair",
+        "imageURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_YEVLhnzCZSgWA6vgNm_dnqllWjW3baFuFA&usqp=CAU",
+        "website": "https://www.iams.com/"
+    },
+    {
+        "id": 7,
+        "brand": "Wellness",
+        "cat_type": "Shorthair",
+        "imageURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_YEVLhnzCZSgWA6vgNm_dnqllWjW3baFuFA&usqp=CAU",
+        "website": "https://www.wellnesspetfood.com/"
+    },
+    {
+        "id": 8,
+        "brand": "Nutro",
+        "cat_type": "Longhair",
+        "imageURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_YEVLhnzCZSgWA6vgNm_dnqllWjW3baFuFA&usqp=CAU",
+        "website": "https://www.nutro.com/"
+    },
+    {
+        "id": 9,
+        "brand": "Merrick",
+        "cat_type": "No hair",
+        "imageURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_YEVLhnzCZSgWA6vgNm_dnqllWjW3baFuFA&usqp=CAU",
+        "website": "https://www.merrickpetcare.com/"
+    },
+    {
+        "id": 10,
+        "brand": "Hill's Prescription Diet",
+        "cat_type": "Shorthair",
+        "imageURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_YEVLhnzCZSgWA6vgNm_dnqllWjW3baFuFA&usqp=CAU",
+        "website": "https://www.hillspet.com/prescription-diet"
+    }
     ],
     "interactive_games": [
         {
             "id": 1,
-            "title": "Game 1",
-            "video_id": "37cjLl07t5w",
-            "description": "Game description"
+            "title": "Paper Ball",
+            "description": "Crumple up a piece of paper and toss it to your cat. Watch them bat it around and pounce on it!",
+            "difficulty": "Easy",
+            "age_range": "All ages"
         },
         {
             "id": 2,
-            "title": "Game 2",
-            "video_id": "37cjLl07t5w",
-            "description": "Game description"
+            "title": "Cardboard Box Maze",
+            "description": "Create a maze out of cardboard boxes and let your cat explore and play hide-and-seek!",
+            "difficulty": "Medium",
+            "age_range": "All ages"
         },
         {
             "id": 3,
-            "title": "Game 3",
-            "video_id": "37cjLl07t5w",
-            "description": "Game description"
+            "title": "Treat Puzzle",
+            "description": "Hide your cat's favorite treat inside a puzzle toy and watch them figure out how to get it out!",
+            "difficulty": "Medium",
+            "age_range": "All ages"
+        },
+        {
+            "id": 4,
+            "title": "String Game",
+            "description": "Wiggle a piece of string in front of your cat and watch them try to catch it!",
+            "difficulty": "Easy",
+            "age_range": "All ages"
+        },
+        {
+            "id": 5,
+            "title": "Feather Wand",
+            "description": "Wave a feather wand in front of your cat and watch them try to catch it!",
+            "difficulty": "Easy",
+            "age_range": "All ages"
+        },
+        {
+            "id": 6,
+            "title": "Catnip Toy",
+            "description": "Give your cat a toy filled with catnip and watch them roll around and play with it!",
+            "difficulty": "Easy",
+            "age_range": "All ages"
+        },
+        {
+            "id": 7,
+            "title": "Ping Pong Ball",
+            "description": "Bounce a ping pong ball in front of your cat and watch them try to catch it!",
+            "difficulty": "Easy",
+            "age_range": "All ages"
+        },
+        {
+            "id": 8,
+            "title": "Tunnel",
+            "description": "Get a tunnel toy for your cat to explore and play in!",
+            "difficulty": "Easy",
+            "age_range": "All ages"
+        },
+        {
+            "id": 9,
+            "title": "Water Play",
+            "description": "Put a few inches of water in a bathtub or sink and let your cat splash and play!",
+            "difficulty": "Easy",
+            "age_range": "All ages"
+        },
+        {
+            "id": 10,
+            "title": "Chase Game",
+            "description": "Run around the house or yard with your cat chasing after you!",
+            "difficulty": "Medium",
+            "age_range": "All ages"
         }
-    ],
+    ]
+    ,
     "quiz_questions": [
         {
             "id": 1,
